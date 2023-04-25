@@ -1,0 +1,53 @@
+------POO Parte I ------
+
+ Um código orientado a objetos é composto por:
+    - Classes
+    - Objetos
+    - Relacionamento entre os objetos
+
+Classe:
+ Representação de um conjuto de objetos com características semelhantes
+
+Atributos:
+ Definem as particularidades de cada objeto
+
+
+ Ex: Classe : Pessoa
+   Atributos: nome (String)
+              idade (int)
+              sexo  (char)
+              cpf  (String)
+
+ Ex2:Classe : Conta
+   Atributos: numero (String)
+              titular(Pessoa)
+              saldo  (double)
+              limite (double)
+
+
+Objeto: 
+ É a instância de uma classe que armazenam suas características de acordo com seus atributos
+
+
+dois Objetos podem ter os mesmos atributos mas mesmo assim serem objetos diferentes
+
+
+---java---
+
+class pessoa {
+   String nome;
+   char sexo;
+   int idade;
+   String Cpf;
+}
+
+class Conta{
+   String numero;
+   Pessoa titular;
+   double saldo;
+   double limite;
+}
+
+-----------
+
+Quando programamos em java, cada classe fica em um arquivo separado onde o nome do arquivo tem a extensão .java
